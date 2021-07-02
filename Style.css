@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    border-bottom: 5px solid greenyellow;
+}
+
+#container {
+    width: 95%;
+    margin: auto;
+}
+
+.nav {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.nav h2 {
+    font-size: 2rem;
+    margin-left: 500px;
+}
+
+.search-box {
+    position: relative;
+    width: 350px;
+    margin-left: 800px;
+}
+
+.search-box input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 25px;
+    padding: 8px;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    border: 1px solid lightgray;
+}
+
+input:focus {
+    box-shadow: 0 0 8px yellowgreen;
+    border: 3px solid yellowgreen;
+}
+
+.search-box i {
+    color: black;
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    transition: 1.5s;
+}
+
+.search-box i:hover {
+    color: orange;
+}
+
+#grid {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.error {
+    font-size: 50px;
+    margin-left: 600px;
+    color: red;
+    margin-top: 100px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+}
